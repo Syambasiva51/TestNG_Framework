@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Different Testng Feature Test(failed)">
+    <classes>
+      <class name="com.test.project.G_Assertion">
+        <methods>
+          <include name="GoogleLogoTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test.project.G_Assertion -->
+    </classes>
+  </test> <!-- Different Testng Feature Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

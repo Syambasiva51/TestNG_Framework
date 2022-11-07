@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Different Testng Feature Test">
+    <classes>
+      <class name="com.test.project.A_Annotations_Part1"/>
+      <class name="com.test.project.F_ExpectedException"/>
+      <class name="com.test.project.E_ExceptionTimeout"/>
+      <class name="com.test.project.B_GoogleTest"/>
+      <class name="com.test.project.D_InvocationCount"/>
+      <class name="com.test.project.C_DependsonMethod"/>
+      <class name="com.test.project.G_Assertion"/>
+    </classes>
+  </test> 
+</suite>

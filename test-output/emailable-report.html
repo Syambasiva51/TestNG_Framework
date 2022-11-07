@@ -8,13 +8,52 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">19,163</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Different Testng Feature Test</a></td><td class="num">16</td><td class="num">0</td><td class="num attn">1</td><td class="num">6,827</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.test.project.B_GoogleTest</td><td><a href="#m0">GetTittle</a></td><td rowspan="1">1667114292155</td><td rowspan="1">28</td></tr><tr class="passedeven"><td><a href="#m1">GoogleLogoTest</a></td><td rowspan="1">1667114303642</td><td rowspan="1">55</td></tr><tr class="passedeven"><td><a href="#m2">linktest</a></td><td rowspan="1">1667114297764</td><td rowspan="1">211</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different Testng Feature Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.test.project.G_Assertion</td><td><a href="#m0">GoogleLogoTest</a></td><td rowspan="1">1667798516379</td><td rowspan="1">114</td></tr><tr><th colspan="4">Different Testng Feature Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.test.project.A_Annotations_Part1</td><td><a href="#m1">GooglelogoTest</a></td><td rowspan="1">1667798510175</td><td rowspan="1">21</td></tr><tr class="passedeven"><td><a href="#m2">SearchTest</a></td><td rowspan="1">1667798510205</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m3">googleTitleTest</a></td><td rowspan="1">1667798510214</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="1">com.test.project.C_DependsonMethod</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1667798510343</td><td rowspan="1">4</td></tr><tr class="passedeven"><td rowspan="10">com.test.project.D_InvocationCount</td><td><a href="#m5">sum</a></td><td rowspan="10">1667798510330</td><td rowspan="10">2</td></tr><tr class="passedeven"><td><a href="#m6">sum</a></td></tr><tr class="passedeven"><td><a href="#m7">sum</a></td></tr><tr class="passedeven"><td><a href="#m8">sum</a></td></tr><tr class="passedeven"><td><a href="#m9">sum</a></td></tr><tr class="passedeven"><td><a href="#m10">sum</a></td></tr><tr class="passedeven"><td><a href="#m11">sum</a></td></tr><tr class="passedeven"><td><a href="#m12">sum</a></td></tr><tr class="passedeven"><td><a href="#m13">sum</a></td></tr><tr class="passedeven"><td><a href="#m14">sum</a></td></tr><tr class="passedodd"><td rowspan="1">com.test.project.E_ExceptionTimeout</td><td><a href="#m15">infiniteLoop</a></td><td rowspan="1">1667798510244</td><td rowspan="1">23</td></tr><tr class="passedeven"><td rowspan="1">com.test.project.F_ExpectedException</td><td><a href="#m16">infiniteLoop</a></td><td rowspan="1">1667798510229</td><td rowspan="1">5</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.test.project.B_GoogleTest#GetTittle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.project.B_GoogleTest#GoogleLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.project.B_GoogleTest#linktest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Different Testng Feature Test</h2><h3 id="m0">com.test.project.G_Assertion#GoogleLogoTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div/img&quot;}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-H6ICRR5G&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\samba\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eaf8bf89bf0463940196375ba1dcdd42
+*** Element info: {Using=xpath, value=/html/body/div/img}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.test.project.G_Assertion.GoogleLogoTest(G_Assertion.java:34)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.test.project.A_Annotations_Part1#GooglelogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.project.A_Annotations_Part1#SearchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.project.A_Annotations_Part1#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.project.C_DependsonMethod#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.test.project.D_InvocationCount#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.test.project.E_ExceptionTimeout#infiniteLoop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.test.project.F_ExpectedException#infiniteLoop</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;100A&quot;
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:665)
+	at java.base/java.lang.Integer.parseInt(Integer.java:781)
+	at com.test.project.F_ExpectedException.infiniteLoop(F_ExpectedException.java:10)
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeTest;
  */
 import org.testng.annotations.Test;
 
-public class A_Annotations {
+public class A_Annotations_Part1 {
 //pre-conditions annotations --starting  with @Before
 	
 	@BeforeSuite //1
